@@ -1,0 +1,26 @@
+#profile-picture {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.bio {
+    width: 200px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+    height: 3rem;
+    border: 1px solid;
+
+    width: 30vw;
+}
