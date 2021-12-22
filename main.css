@@ -6,7 +6,7 @@ html {
 #profile-picture {
     width: 100%;
     border-radius: 30px;
-    outline: 5px solid white;
+    box-shadow: 0 0 0px 5px white;
 }
 
 h1 {
