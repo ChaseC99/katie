@@ -10,7 +10,7 @@ html {
 }
 
 h1 {
-    margin: 50px 0 20px 0;
+    margin: 30px 0 20px 0;
     text-align: center;
 }
 
@@ -65,3 +65,39 @@ li {
         align-items: center;
     }
 }
+
+.gift {
+    width: 70%;
+    font-size: 3em;
+    margin: 50px auto;
+}
+
+.gift a {
+    padding: 0;
+}
+
+.gift a p {
+    margin: 0;
+    padding-top: 10px;
+    position: relative;
+    left: 35%;
+    animation: infinite shake 2s;
+}
+
+@keyframes shake{
+    60%{
+        transform: rotate(0);
+    }
+    70%{
+        transform: rotate(10deg);
+    }
+    80%{
+        transform: rotate(-20deg);
+    }
+    90%{
+        transform: rotate(10deg);
+    }
+    100%{
+      transform: rotate(0);
+    }
+  }
